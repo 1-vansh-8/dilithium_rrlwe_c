@@ -1,5 +1,5 @@
-#ifndef API_H
-#define API_H
+#ifndef DILITHIUM_API_H
+#define DILITHIUM_API_H
 
 #include <stddef.h>
 #include <stdint.h>
@@ -95,4 +95,4 @@ int pqcrystals_dilithium5_ref_open(uint8_t *m, size_t *mlen,
                                    const uint8_t *pk);
 
 
-#endif
+#endif /* DILITHIUM_API_H */
